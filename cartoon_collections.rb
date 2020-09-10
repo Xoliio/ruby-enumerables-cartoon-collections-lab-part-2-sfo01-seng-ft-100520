@@ -8,8 +8,7 @@ end
   # Return a new array of the results
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |word|
-    word.capitalize
-    puts "#{word}!"
+    puts "#{word.capitalize}!"
   end
 end
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
