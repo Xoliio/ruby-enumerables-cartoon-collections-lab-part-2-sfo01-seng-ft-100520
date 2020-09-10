@@ -10,6 +10,7 @@ def summon_captain_planet(planeteer_calls)
   small_calls.each do |word|
     word.capitalize
     puts "#{word}!"
+  end
 end
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
