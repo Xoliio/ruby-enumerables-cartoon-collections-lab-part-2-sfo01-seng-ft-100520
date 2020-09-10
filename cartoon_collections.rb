@@ -7,7 +7,7 @@ end
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
 def summon_captain_planet(planeteer_calls)
-  small_calls.each do |word|
+  array.each do |word|
     word.capitalize
     puts "#{word}!"
   end
